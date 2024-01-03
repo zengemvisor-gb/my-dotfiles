@@ -1,0 +1,5 @@
+poetry 1.6.1
+direnv 2.32.3
+nodejs latest
+deno   1.37.1
+bun    1.0.6

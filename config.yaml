@@ -20,6 +20,18 @@ dotfiles:
   d_zellij:
     src: config/zellij
     dst: ~/.config/zellij
+  d_atuin:
+    src: config/atuin
+    dst: ~/.config/atuin
+  d_helix:
+    src: config/helix
+    dst: ~/.config/helix
+  f_tool-versions:
+    src: tool-versions
+    dst: ~/.tool-versions
+  f_taskrc:
+    src: taskrc
+    dst: ~/.taskrc
 profiles:
   gil-kubuntu:
     dotfiles:
@@ -27,3 +39,7 @@ profiles:
     - d_fish
     - d_nvim
     - d_zellij
+    - d_atuin
+    - d_helix
+    - f_tool-versions
+    - f_taskrc
