@@ -1,0 +1,11 @@
+layout {
+    pane 
+    pane command="btop"
+    pane split_direction="vertical" {
+        command "ranger"
+        cwd "/"
+      }
+    pane command="ls" {
+        cwd "/"
+      }
+  }

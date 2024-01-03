@@ -3,4 +3,4 @@
 	url = https://github.com/deadc0de6/dotdrop.git
 [submodule "shell-color-scripts"]
 	path = ./dotfiles/config/fish/shell-color-scripts
-	url = https://gitlab.com/dwt1/shell-color-scripts
+	url = https://gitlab.com/dwt1/shell-color-scripts.git

@@ -17,9 +17,13 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
+  d_zellij:
+    src: config/zellij
+    dst: ~/.config/zellij
 profiles:
   gil-kubuntu:
     dotfiles:
     - f_wezterm.lua
     - d_fish
     - d_nvim
+    - d_zellij
