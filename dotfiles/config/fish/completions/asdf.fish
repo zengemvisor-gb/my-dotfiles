@@ -1,0 +1,1 @@
+/home/gil/.asdf/completions/asdf.fish
